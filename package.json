@@ -10,7 +10,7 @@
     "email": "wthorsen@skypilot.dev"
   },
   "license": "ISC",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@skypilot/toolchain": "^0.4.19",
     "bumped": "^0.12.0",
