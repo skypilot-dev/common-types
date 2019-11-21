@@ -1,0 +1,13 @@
+{
+  "name": "@skypilot/common-types",
+  "version": "0.0.0",
+  "description": "Library of reusable common types for TypeScript projects",
+  "main": "index.js",
+  "repository": "https://github.com/skypilotcc/common-types.git",
+  "author": {
+    "name": "William Thorsen",
+    "email": "wthorsen@skypilot.dev"
+  },
+  "license": "ISC",
+  "private": true
+}
