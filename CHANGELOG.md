@@ -1,3 +1,9 @@
+## <small>0.1.2 (2019-11-22)</small>
+
+* Update Toolchain and move to dev deps ([7b9553c](https://github.com/skypilotcc/common-types/commit/7b9553c))
+
+
+
 ## <small>0.1.1 (2019-11-22)</small>
 
 * fix: Package entrypoints are incorrectly set in package file ([70bff6a](https://github.com/skypilotcc/common-types/commit/70bff6a))
