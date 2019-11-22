@@ -15,10 +15,9 @@
   "bugs": {
     "url": "https://github.com/skypilotcc/common-types/issues"
   },
-  "dependencies": {
-    "@skypilot/toolchain": "^0.4.20"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@skypilot/toolchain": "^0.4.21",
     "bumped": "^0.12.0",
     "bumped-changelog": "^0.3.12",
     "bumped-finepack": "^0.3.0",

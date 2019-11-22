@@ -945,10 +945,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@skypilot/toolchain@^0.4.20":
-  version "0.4.20"
-  resolved "https://registry.yarnpkg.com/@skypilot/toolchain/-/toolchain-0.4.20.tgz#6315ac94fb172b28dd6e67aa3556594085837e9a"
-  integrity sha512-tDMub8KqUyLZA0uztsFuNhhv/Z68ctQBA/PGKnVy9N37kxoxxYxwbC2HNZyP+Gno+ptyUeXIprDmKPc4JS8+pw==
+"@skypilot/toolchain@^0.4.21":
+  version "0.4.21"
+  resolved "https://registry.yarnpkg.com/@skypilot/toolchain/-/toolchain-0.4.21.tgz#ddcd1a705fbf35b49d802a691fb988014aabc21d"
+  integrity sha512-tEcqVjhsBjsvKn2RVHyBTBOslYGV3Bln6QGBfr+eQiUeOc3LlA9T1pt2UEbcS3yyuuYeZcvRUIEfLV1o7gXc/w==
   dependencies:
     "@babel/cli" "^7.7.0"
     "@babel/core" "^7.7.2"
