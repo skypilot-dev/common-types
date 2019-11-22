@@ -1,3 +1,9 @@
+## <small>0.1.1 (2019-11-22)</small>
+
+* fix: Package entrypoints are incorrectly set in package file ([70bff6a](https://github.com/skypilotcc/common-types/commit/70bff6a))
+
+
+
 ## 0.1.0 (2019-11-21)
 
 * Add ISC license ([a998d45](https://github.com/skypilotcc/common-types/commit/a998d45))
