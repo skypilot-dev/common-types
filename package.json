@@ -3,7 +3,7 @@
   "description": "Library of reusable common types for TypeScript projects",
   "homepage": "https://github.com/skypilotcc/common-types#readme",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": {
     "email": "wthorsen@skypilot.dev",
     "name": "William Thorsen"
@@ -16,7 +16,6 @@
     "url": "https://github.com/skypilotcc/common-types/issues"
   },
   "devDependencies": {
-    "@skypilot/toolchain": "^0.4.19",
     "bumped": "^0.12.0",
     "bumped-changelog": "^0.3.12",
     "bumped-finepack": "^0.3.0",
@@ -38,5 +37,8 @@
   },
   "private": false,
   "license": "ISC",
-  "types": "index.d.ts"
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@skypilot/toolchain": "^0.4.20"
+  }
 }
