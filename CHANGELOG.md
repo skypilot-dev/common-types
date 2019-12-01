@@ -1,3 +1,11 @@
+## <small>0.2.1 (2019-12-01)</small>
+
+* add: `Class` type for generically representing a class ([ac3075b](https://github.com/skypilotcc/common-types/commit/ac3075b))
+* Add package-file convenience scripts ([7935cbf](https://github.com/skypilotcc/common-types/commit/7935cbf))
+* Allow publication of releases from 'edge' branch ([8a0a2bf](https://github.com/skypilotcc/common-types/commit/8a0a2bf))
+
+
+
 ## <small>0.1.2 (2019-11-22)</small>
 
 * Update Toolchain and move to dev deps ([7b9553c](https://github.com/skypilotcc/common-types/commit/7b9553c))
