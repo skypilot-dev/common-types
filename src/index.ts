@@ -6,6 +6,10 @@ export type Json = string;
 export type Timestamp = Integer;
 
 
+export interface Class<T> extends Function {
+  new (...args: any[]): T;
+}
+
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface JsonArray extends Array<JsonValue> {}
 
