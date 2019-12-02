@@ -1,3 +1,9 @@
+## 0.3.0 (2019-12-02)
+
+* add: `Url` type as an alias for `string` ([494414d](https://github.com/skypilotcc/common-types/commit/494414d))
+
+
+
 ## <small>0.2.1 (2019-12-01)</small>
 
 * add: `Class` type for generically representing a class ([ac3075b](https://github.com/skypilotcc/common-types/commit/ac3075b))
