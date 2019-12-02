@@ -1,9 +1,12 @@
 /* Pseudo-types */
+/* TODO: Implement actual validation if it ever becomes possible in TypeScript */
 export type Integer = number;
 
 export type Json = string;
 
 export type Timestamp = Integer;
+
+export type Url = string;
 
 
 export interface Class<T> extends Function {

@@ -21,3 +21,5 @@ type JsonValue = Literal | JsonObject | JsonArray | null
 type Literal = boolean | number | string
 
 type Timestamp = Integer
+
+type Url = string
