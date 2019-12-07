@@ -1,5 +1,8 @@
 /* Pseudo-types */
-/* TODO: Implement actual validation if it ever becomes possible in TypeScript */
+/* TODO: Implement actual validation of pseudo-types if it ever becomes possible in TypeScript */
+
+export type Html = string;
+
 export type Integer = number;
 
 export type Json = string;
