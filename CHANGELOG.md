@@ -1,3 +1,11 @@
+## 0.4.0 (2019-12-07)
+
+* add: `Html` as an alias for `string` ([9c948ff](https://github.com/skypilotcc/common-types/commit/9c948ff))
+* Rename package-file scripts to match other projects ([881d509](https://github.com/skypilotcc/common-types/commit/881d509))
+* Update and reinitialize Toolchain ([6e45007](https://github.com/skypilotcc/common-types/commit/6e45007))
+
+
+
 ## 0.3.0 (2019-12-02)
 
 * add: `Url` type as an alias for `string` ([494414d](https://github.com/skypilotcc/common-types/commit/494414d))
