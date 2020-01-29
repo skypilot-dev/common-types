@@ -1,10 +1,11 @@
-name: Node CI
+name: Build & test NPM package
 
 on:
   push:
     branches-ignore:
       - 'wip-**'
       - '**-wip'
+      - 'master'
 
 jobs:
   build:
@@ -12,6 +13,7 @@ jobs:
 
     env:
       CI: true
+      NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 
     runs-on: ubuntu-latest
 
@@ -28,7 +30,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install
-        run: yarn install --frozen-lockfile --production=false
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" > .npmrc
+          yarn install --frozen-lockfile --production=false
       - name: Check types
         run: yarn run typecheck
       - name: Lint
