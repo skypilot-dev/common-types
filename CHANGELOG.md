@@ -1,3 +1,11 @@
+## 0.5.0 (2020-01-29)
+
+* feat: Add `SortComparison` for array sorting comparisons ([f511684](https://github.com/skypilotcc/common-types/commit/f511684))
+* feat: Automatically publish master & edge releases ([e5693ae](https://github.com/skypilotcc/common-types/commit/e5693ae))
+* Update Toolchain to v1.5.1 ([12589d8](https://github.com/skypilotcc/common-types/commit/12589d8))
+
+
+
 ## 0.4.0 (2019-12-07)
 
 * add: `Html` as an alias for `string` ([9c948ff](https://github.com/skypilotcc/common-types/commit/9c948ff))
