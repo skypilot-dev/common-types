@@ -20,6 +20,8 @@ type JsonValue = Literal | JsonObject | JsonArray | null
 
 type Literal = boolean | number | string
 
+type SortComparison = -1 | 0 | 1
+
 type Timestamp = Integer
 
 type Url = string

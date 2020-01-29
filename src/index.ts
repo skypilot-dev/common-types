@@ -7,6 +7,8 @@ export type Integer = number;
 
 export type Json = string;
 
+export type SortComparison = -1 | 0 | 1;
+
 export type Timestamp = Integer;
 
 export type Url = string;
