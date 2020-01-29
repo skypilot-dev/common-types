@@ -17,7 +17,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@skypilot/toolchain": "^1.1.5",
+    "@skypilot/toolchain": "^1.5.1",
     "bumped": "^0.12.0",
     "bumped-changelog": "^0.3.12",
     "bumped-finepack": "^0.3.0",
@@ -31,16 +31,20 @@
     "all-cq-checks": "yarn run typecheck && yarn run lint --quiet && yarn test",
     "build": "rm -rf lib && yarn run compile-ts",
     "ci": "yarn run all-ci-checks",
-    "compile-ts": "babel ./src --out-dir ./lib --extensions .ts --ignore '**/*.test.ts'",
+    "compile-ts": "babel ./src --out-dir ./lib --extensions .ts --ignore '**/__tests__/*' --ignore '**/*.d.ts' && yarn run generate-typings",
     "cq": "yarn run all-cq-checks",
     "generate-typings": "tsc --project tsconfig.generate-typings.json",
     "lint": "eslint --cache '**/*.{js,ts}'",
-    "prepublishOnly": "yarn run typecheck && yarn run lint --quiet && yarn test && yarn run build && yarn run generate-typings",
+    "prepublishOnly": "yarn run typecheck && yarn run lint --quiet && yarn test && yarn run build",
+    "publish:default": "yarn publish --non-interactive",
     "tc": "yarn run typecheck",
     "test": "jest",
     "typecheck": "tsc"
   },
   "private": false,
   "license": "ISC",
-  "types": "lib/index.d.ts"
+  "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
 }
