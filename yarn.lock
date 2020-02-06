@@ -1293,25 +1293,25 @@
   dependencies:
     type-detect "4.0.8"
 
-"@skypilot/bump-version@^1.0.0-next.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@skypilot/bump-version/-/bump-version-1.0.0.tgz#3536bd7b783a9024412502fd418fa04a80772ab7"
-  integrity sha512-e+qL+so0L2IIs5gOB76jcyz66lyTnlOE9/YOOGmbAtXn0SldVxv79mFO5rAZq1tlsf1JaZ6pWurgU4GA4wtJCQ==
+"@skypilot/bump-version@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@skypilot/bump-version/-/bump-version-1.0.2.tgz#71fc99089fcf016e77e47e4e26e5039b8ef07cc8"
+  integrity sha512-i8UmGLM9VCuSv3vwn2o4gF9x/lf5ndhz7i/04t3DGgTMj8y7igbHPNS9Ps96PljOuBTDTkeVV+SyDv97s24N8w==
   dependencies:
-    "@skypilot/nodegit-tools" "^1.0.1"
-    "@skypilot/versioner" "^1.0.0"
+    "@skypilot/nodegit-tools" "^1.0.4"
+    "@skypilot/versioner" "^1.0.1"
 
-"@skypilot/nodegit-tools@^1.0.1":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@skypilot/nodegit-tools/-/nodegit-tools-1.0.3.tgz#dc3f8335053090fa4401444bf1842140d77101b3"
-  integrity sha512-AcYoa1uJzKgfwzxxD9GoBGUk4k35EXioMGdoSzhGSGqwuYdPdiFpYr8twJYGUHKuJAKqoWzcROy5Rr1XQoUbXQ==
+"@skypilot/nodegit-tools@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@skypilot/nodegit-tools/-/nodegit-tools-1.0.4.tgz#12a7cc29c43247595b9a0dcb9bcee405a8ecc707"
+  integrity sha512-IF4ybX+ApPIZ/R+lzmeHCMOHvJLnpmvBzTBS1IE515E4m3bsoGsMyO0p80CCulZIu3y37mp76IwFG3YzlP6kmw==
   dependencies:
     nodegit "^0.26.4"
 
-"@skypilot/toolchain@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@skypilot/toolchain/-/toolchain-2.0.0.tgz#75dd4b7f45b4b69042c7a17b1a54d9eab9ce9e29"
-  integrity sha512-4bimrrtwL3GGIthGRnXTR34BP57BXKxsy8H2j2Ajjs0giff4Nc+tAJlYEwxe+RjzcECkP/Qa4hZWOtqT4rhPCw==
+"@skypilot/toolchain@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@skypilot/toolchain/-/toolchain-2.0.1.tgz#7bd02466303deedd51d9004e2356d5b5de5bf67d"
+  integrity sha512-yFhExERUMYGuOem+0ysxUNrcB5P4893yTqaqsn6mINuvi+SZTP7W3jP4npgo3E4NhMVXnAy54PeseJylp/T7MQ==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.8.4"
@@ -1322,7 +1322,7 @@
     "@babel/preset-env" "^7.8.4"
     "@babel/preset-typescript" "^7.8.3"
     "@babel/runtime" "^7.8.4"
-    "@skypilot/bump-version" "^1.0.0-next.0"
+    "@skypilot/bump-version" "^1.0.2"
     "@types/jest" "^25.1.1"
     "@types/node" "^13.7.0"
     "@typescript-eslint/eslint-plugin" "^2.19.0"
@@ -1340,7 +1340,7 @@
     lint-staged "^10.0.7"
     typescript "^3.7.5"
 
-"@skypilot/versioner@^1.0.0":
+"@skypilot/versioner@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@skypilot/versioner/-/versioner-1.0.1.tgz#d458f1bd654138a1c3ea7d2cd56082b029db2044"
   integrity sha512-tCABJ8Gheq+g/qRq/emEFyK/Dq6Urc/5Pkb1nZWgLYdwwp8Sb+3mHCq55PjO1Epy72aS/CQl0nhNg/yTesUk0w==
