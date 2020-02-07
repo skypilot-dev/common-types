@@ -1288,10 +1288,10 @@
   dependencies:
     type-detect "4.0.8"
 
-"@skypilot/toolchain@^2.1.5":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@skypilot/toolchain/-/toolchain-2.1.5.tgz#17e8d3c8e234da2c38a57bbc73644d1839b2dbe4"
-  integrity sha512-jZhHM0NkEtw6vOOQTqsV8rS/x6H7hYM4m+WinZUFiWSf+VNg4u2mbpoVf4kIoJN/6ZCvTAcyLzeuM3mkMPo2Cg==
+"@skypilot/toolchain@^2.1.7":
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@skypilot/toolchain/-/toolchain-2.1.7.tgz#7caed0cfdd1c91b35fac18764e7386873caf675b"
+  integrity sha512-x+VFy8O3Aqo4Nad13rfK+oNwfX/OinMOP5bUqbQJu1JQSr+AvnowqFLS9KJDffcEpGAhJeVdZPBcYAthXGgQIQ==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.8.4"
