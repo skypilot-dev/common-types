@@ -50,7 +50,7 @@ jobs:
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_READ_TOKEN" > .npmrc
           yarn install --frozen-lockfile --production=false
-          yarn add @skypilot/quick-release conventional-changelog-cli@2 finepack@2
+          yarn add @skypilot/quick-release@beta conventional-changelog-cli@2 finepack@2
           git checkout -- .
       - name: Gather published versions
         run: |
