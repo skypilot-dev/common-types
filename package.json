@@ -2,7 +2,7 @@
   "name": "@skypilot/common-types",
   "description": "Library of reusable common types for TypeScript projects",
   "homepage": "https://github.com/skypilotcc/common-types#readme",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "lib/index.js",
   "author": {
     "email": "william@thorsen.dev",
