@@ -1,8 +1,80 @@
-## [1.0.3](https://github.com/skypilotcc/common-types/compare/v1.0.3-next.0...v1.0.3) (2020-02-07)
+## [1.0.4](https://github.com/skypilotcc/common-types/compare/v1.0.3-next.3...v1.0.4) (2020-02-10)
 
 
 
-## 1.0.3-next.0 (2020-02-07)
+## [1.0.3-next.3](https://github.com/skypilotcc/common-types/compare/v1.0.3-next.1...v1.0.3-next.3) (2020-02-10)
+
+
+
+## [1.0.3-next.1](https://github.com/skypilotcc/common-types/compare/v1.0.3...v1.0.3-next.1) (2020-02-07)
+
+
+
+## [1.0.3-next.0](https://github.com/skypilotcc/common-types/compare/v1.0.2...v1.0.3-next.0) (2020-02-07)
+
+
+
+## [1.0.2](https://github.com/skypilotcc/common-types/compare/v1.0.2-next.0...v1.0.2) (2020-02-06)
+
+
+
+## [1.0.2-next.0](https://github.com/skypilotcc/common-types/compare/v1.0.1-next.0...v1.0.2-next.0) (2020-02-06)
+
+
+
+## [1.0.1-next.0](https://github.com/skypilotcc/common-types/compare/v1.0.1...v1.0.1-next.0) (2020-02-06)
+
+
+
+## [0.5.1-next.0](https://github.com/skypilotcc/common-types/compare/v0.5.1...v0.5.1-next.0) (2020-02-06)
+
+
+
+## [0.5.1-next](https://github.com/skypilotcc/common-types/compare/0.5.0...v0.5.1-next) (2020-01-31)
+
+
+
+# [0.5.0](https://github.com/skypilotcc/common-types/compare/v0.4.0...0.5.0) (2020-01-29)
+
+
+### Features
+
+* Add `SortComparison` for array sorting comparisons ([f511684](https://github.com/skypilotcc/common-types/commit/f5116845ca69f8c4445d79f666b5a40199250b99))
+* Automatically publish master & edge releases ([e5693ae](https://github.com/skypilotcc/common-types/commit/e5693aedcd2bf0a28bc9818deeb8970580f3c42f))
+
+
+
+# [0.4.0](https://github.com/skypilotcc/common-types/compare/v0.3.0...v0.4.0) (2019-12-07)
+
+
+
+# [0.3.0](https://github.com/skypilotcc/common-types/compare/v0.2.1...v0.3.0) (2019-12-02)
+
+
+
+## [0.2.1](https://github.com/skypilotcc/common-types/compare/v0.1.2...v0.2.1) (2019-12-01)
+
+
+
+## [0.1.2](https://github.com/skypilotcc/common-types/compare/v0.1.1...v0.1.2) (2019-11-22)
+
+
+
+## [0.1.1](https://github.com/skypilotcc/common-types/compare/v0.1.0...v0.1.1) (2019-11-22)
+
+
+### Bug Fixes
+
+* Package entrypoints are incorrectly set in package file ([70bff6a](https://github.com/skypilotcc/common-types/commit/70bff6a30b6ad3b839447121b0b86996dd2cbeb6))
+
+
+
+# [0.1.0](https://github.com/skypilotcc/common-types/compare/dc21f25f8f16d49a488cc93be3fcd493f450e049...v0.1.0) (2019-11-21)
+
+
+### Features
+
+* Define common useful types ([dc21f25](https://github.com/skypilotcc/common-types/commit/dc21f25f8f16d49a488cc93be3fcd493f450e049))
 
 
 
