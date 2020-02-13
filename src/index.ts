@@ -26,3 +26,7 @@ export interface JsonObject { [key: string]: JsonValue }
 export type JsonValue = Literal | JsonObject | JsonArray | null
 
 export type Literal = boolean | number | string;
+
+/* UTILITY TYPES  */
+
+export type Maybe<T> = T | null | undefined;
