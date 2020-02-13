@@ -17,7 +17,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@skypilot/toolchain": "^3.2.0"
+    "@skypilot/toolchain": "^3.3.1"
   },
   "files": [
     "/lib"
