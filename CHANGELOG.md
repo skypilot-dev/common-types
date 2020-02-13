@@ -1,3 +1,16 @@
+## [1.2.1](https://github.com/skypilotcc/common-types/compare/v1.2.1-next.0...v1.2.1) (2020-02-13)
+
+
+
+## [1.2.1-next.0](https://github.com/skypilotcc/common-types/compare/v1.2.0...v1.2.1-next.0) (2020-02-13)
+
+
+### Bug Fixes
+
+* Rename `MaybeDefined` to `MaybeUndefined` for consistency ([11533ec](https://github.com/skypilotcc/common-types/commit/11533ec1e04f8bca084bd1d43dbf416fd921fab5))
+
+
+
 # [1.2.0](https://github.com/skypilotcc/common-types/compare/v1.2.0-next.0...v1.2.0) (2020-02-13)
 
 
@@ -11,11 +24,7 @@
 
 
 
-# [1.1.0](https://github.com/skypilotcc/common-types/compare/v1.1.0-next.0...v1.1.0) (2020-02-13)
-
-
-
-# [1.1.0-next.0](https://github.com/skypilotcc/common-types/compare/v1.0.5...v1.1.0-next.0) (2020-02-13)
+# [1.1.0](https://github.com/skypilotcc/common-types/compare/v1.0.5...v1.1.0) (2020-02-13)
 
 
 ### Features
