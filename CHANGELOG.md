@@ -1,44 +1,41 @@
+# [1.1.0](https://github.com/skypilotcc/common-types/compare/v1.1.0-next.0...v1.1.0) (2020-02-13)
+
+
+
+# [1.1.0-next.0](https://github.com/skypilotcc/common-types/compare/v1.0.5...v1.1.0-next.0) (2020-02-13)
+
+
+### Features
+
+* Add 'Maybe' utility type ([fc3778f](https://github.com/skypilotcc/common-types/commit/fc3778fbfa30b407f02ff5d84bfcd32e81a28137))
+
+
+
 ## [1.0.5](https://github.com/skypilotcc/common-types/compare/v1.0.5-beta.2...v1.0.5) (2020-02-10)
 
 
 
-## [1.0.5-beta.2](https://github.com/skypilotcc/common-types/compare/v1.0.4-next.1...v1.0.5-beta.2) (2020-02-10)
+## [1.0.5-beta.2](https://github.com/skypilotcc/common-types/compare/v1.0.4...v1.0.5-beta.2) (2020-02-10)
 
 
 
-## [1.0.4-next.1](https://github.com/skypilotcc/common-types/compare/v1.0.4...v1.0.4-next.1) (2020-02-10)
+## [1.0.4](https://github.com/skypilotcc/common-types/compare/v1.0.3...v1.0.4) (2020-02-10)
 
 
 
-## [1.0.3-next.3](https://github.com/skypilotcc/common-types/compare/v1.0.3-next.1...v1.0.3-next.3) (2020-02-10)
+## [1.0.3](https://github.com/skypilotcc/common-types/compare/v1.0.2...v1.0.3) (2020-02-07)
 
 
 
-## [1.0.3-next.1](https://github.com/skypilotcc/common-types/compare/v1.0.3...v1.0.3-next.1) (2020-02-07)
+## [1.0.2](https://github.com/skypilotcc/common-types/compare/v1.0.1...v1.0.2) (2020-02-06)
 
 
 
-## [1.0.3-next.0](https://github.com/skypilotcc/common-types/compare/v1.0.2...v1.0.3-next.0) (2020-02-07)
+## [1.0.1](https://github.com/skypilotcc/common-types/compare/v0.5.1...v1.0.1) (2020-02-06)
 
 
 
-## [1.0.2](https://github.com/skypilotcc/common-types/compare/v1.0.2-next.0...v1.0.2) (2020-02-06)
-
-
-
-## [1.0.2-next.0](https://github.com/skypilotcc/common-types/compare/v1.0.1-next.0...v1.0.2-next.0) (2020-02-06)
-
-
-
-## [1.0.1-next.0](https://github.com/skypilotcc/common-types/compare/v1.0.1...v1.0.1-next.0) (2020-02-06)
-
-
-
-## [0.5.1-next.0](https://github.com/skypilotcc/common-types/compare/v0.5.1...v0.5.1-next.0) (2020-02-06)
-
-
-
-## [0.5.1-next](https://github.com/skypilotcc/common-types/compare/0.5.0...v0.5.1-next) (2020-01-31)
+## [0.5.1](https://github.com/skypilotcc/common-types/compare/0.5.0...v0.5.1) (2020-02-06)
 
 
 
