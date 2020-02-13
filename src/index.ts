@@ -30,3 +30,7 @@ export type Literal = boolean | number | string;
 /* UTILITY TYPES  */
 
 export type Maybe<T> = T | null | undefined;
+
+export type MaybeDefined<T> = T | undefined;
+
+export type MaybeNull<T> = T | null;
