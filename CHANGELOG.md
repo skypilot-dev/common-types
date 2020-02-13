@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/skypilotcc/common-types/compare/v1.2.0-next.0...v1.2.0) (2020-02-13)
+
+
+
+# [1.2.0-next.0](https://github.com/skypilotcc/common-types/compare/v1.1.0...v1.2.0-next.0) (2020-02-13)
+
+
+### Features
+
+* Add 'MaybeDefined' and 'MaybeNull' utility types ([7bbd119](https://github.com/skypilotcc/common-types/commit/7bbd1196dbbbc72204a01355158e205d31d95e0d))
+
+
+
 # [1.1.0](https://github.com/skypilotcc/common-types/compare/v1.1.0-next.0...v1.1.0) (2020-02-13)
 
 
