@@ -1,8 +1,12 @@
-## [1.2.1](https://github.com/skypilotcc/common-types/compare/v1.2.1-next.0...v1.2.1) (2020-02-13)
+## [1.2.2](https://github.com/skypilotcc/common-types/compare/v1.2.2-next.0...v1.2.2) (2020-02-14)
 
 
 
-## [1.2.1-next.0](https://github.com/skypilotcc/common-types/compare/v1.2.0...v1.2.1-next.0) (2020-02-13)
+## [1.2.2-next.0](https://github.com/skypilotcc/common-types/compare/v1.2.1...v1.2.2-next.0) (2020-02-14)
+
+
+
+## [1.2.1](https://github.com/skypilotcc/common-types/compare/v1.2.0...v1.2.1) (2020-02-13)
 
 
 ### Bug Fixes
@@ -11,11 +15,7 @@
 
 
 
-# [1.2.0](https://github.com/skypilotcc/common-types/compare/v1.2.0-next.0...v1.2.0) (2020-02-13)
-
-
-
-# [1.2.0-next.0](https://github.com/skypilotcc/common-types/compare/v1.1.0...v1.2.0-next.0) (2020-02-13)
+# [1.2.0](https://github.com/skypilotcc/common-types/compare/v1.1.0...v1.2.0) (2020-02-13)
 
 
 ### Features
