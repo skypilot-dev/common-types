@@ -13,6 +13,8 @@ interface Class<T> extends Function {
   new(...args: any[]): T
 }
 
+type Enum<E> = Record<keyof E, number | string> & { [key: number]: string }
+
 type Integer = number
 
 type Json = string
