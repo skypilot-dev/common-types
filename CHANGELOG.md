@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/skypilotcc/common-types/compare/v1.3.0-next.0...v1.3.0) (2020-02-28)
+
+
+
+# [1.3.0-next.0](https://github.com/skypilotcc/common-types/compare/v1.2.2...v1.3.0-next.0) (2020-02-28)
+
+
+### Features
+
+* Add `Enum` type ([162d9e2](https://github.com/skypilotcc/common-types/commit/162d9e237907971bb8d1a9ab122b1e320a38199b))
+
+
+
 ## [1.2.2](https://github.com/skypilotcc/common-types/compare/v1.2.2-next.0...v1.2.2) (2020-02-14)
 
 
