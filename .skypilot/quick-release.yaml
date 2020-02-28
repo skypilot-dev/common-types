@@ -7,7 +7,13 @@ bot:
   email: 'bot@skypilot.dev'
 release:
   access: 'public'
+  build: false
+  check-code: false
   publish: true
 prerelease:
   access: 'public'
+  build: false
+  check-code: false
   publish: true
+code-check:
+  build: false
