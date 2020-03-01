@@ -1112,10 +1112,10 @@
   resolved "https://registry.yarnpkg.com/@skypilot/eslint-config-typescript/-/eslint-config-typescript-1.0.1.tgz#9688788061e4b212a4db18d6c794d2eb4bb64c41"
   integrity sha512-eTzaemMnn13a6NG3JGEHni0J104Za+2SQtTeL9yBhAq60KC6v9wObbxxznRoMkiGZwi5mizcKGctAHiMuP1EWw==
 
-"@skypilot/toolchain@^3.5.0-next.0":
-  version "3.5.0-next.0"
-  resolved "https://registry.yarnpkg.com/@skypilot/toolchain/-/toolchain-3.5.0-next.0.tgz#0a74057a5fcc5267a6c709124be99636036cd42c"
-  integrity sha512-sFJB3h2QGLdJ2+mKvfc6FRmmWwlhwtzJd2Y7Pj5T6erzZ6zrM/doaPOjWh9Zk58BauFh3C19o/LuibF0EIAA7w==
+"@skypilot/toolchain@^3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@skypilot/toolchain/-/toolchain-3.5.1.tgz#48481d97827d642c42b2363428903e4048c9972b"
+  integrity sha512-lKQHXLL4r0t7xhQ8QQDGeb6kivpbj/U4SRcrk0aIpCFXjGppMOju4ko0KOHCGZu8g1MKzdNI4O814HEi8kF/wQ==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.8.6"
