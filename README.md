@@ -10,9 +10,12 @@ A library of reusable common types for TypeScript projects
 
 ### Types & interfaces
 
+```
 interface Class<T> extends Function {
   new(...args: any[]): T
 }
+
+type Email = string
 
 type Enum<E> = Record<keyof E, number | string> & { [key: number]: string }
 
@@ -33,3 +36,4 @@ type SortComparison = -1 | 0 | 1
 type Timestamp = Integer
 
 type Url = string
+```

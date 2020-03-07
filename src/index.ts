@@ -1,6 +1,8 @@
 /* Pseudo-types */
 /* TODO: Implement actual validation of pseudo-types if it ever becomes possible in TypeScript */
 
+export type Email = string;
+
 export type Html = string;
 
 export type Integer = number;
