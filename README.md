@@ -10,9 +10,11 @@
 
 A library of reusable common types for TypeScript projects
 
+## Exports
+
 ### Types & interfaces
 
-```
+```typescript
 interface Class<T> extends Function {
   new(...args: any[]): T
 }
