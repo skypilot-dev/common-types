@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/skypilotcc/common-types/compare/v1.4.6...v1.5.0) (2020-03-29)
+
+
+### Features
+
+* Add `AtLeastOne` and `ExactlyOne` utility types ([dd368b5](https://github.com/skypilotcc/common-types/commit/dd368b51977cd3209ffdbe754ab9ccdd66390d6d))
+
+
+
 ## [1.4.6](https://github.com/skypilotcc/common-types/compare/v1.4.6-next.0...v1.4.6) (2020-03-27)
 
 

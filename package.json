@@ -1,23 +1,24 @@
 {
   "name": "@skypilot/common-types",
-  "version": "1.4.6",
-  "private": false,
   "description": "Library of reusable common types for TypeScript projects",
   "homepage": "https://github.com/skypilotcc/common-types#readme",
-  "bugs": {
-    "url": "https://github.com/skypilotcc/common-types/issues"
+  "version": "1.5.0",
+  "main": "lib/index.js",
+  "author": {
+    "email": "wthorsen@skypilot.dev",
+    "name": "William Thorsen"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skypilotcc/common-types.git"
   },
-  "license": "ISC",
-  "author": {
-    "name": "William Thorsen",
-    "email": "wthorsen@skypilot.dev"
+  "bugs": {
+    "url": "https://github.com/skypilotcc/common-types/issues"
   },
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@skypilot/toolchain": "^3.5.11"
+  },
   "files": [
     "/lib"
   ],
@@ -36,11 +37,10 @@
     "test": "jest",
     "typecheck": "tsc"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@skypilot/toolchain": "^3.5.11"
-  },
+  "private": false,
+  "license": "ISC",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "types": "lib/index.d.ts"
 }
