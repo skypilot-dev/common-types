@@ -19,13 +19,7 @@ interface Class<T> extends Function {
   new(...args: any[]): T
 }
 
-type Email = string
-
 type Enum<E> = Record<keyof E, number | string> & { [key: number]: string }
-
-type Integer = number
-
-type Json = string
 
 interface JsonArray extends Array<JsonValue> {}
 
@@ -36,8 +30,33 @@ type JsonValue = Literal | JsonObject | JsonArray | null
 type Literal = boolean | number | string
 
 type SortComparison = -1 | 0 | 1
+```
+
+### Pseudo-types
+
+These types provide semantic value only. (Until TypeScript allows pattern-matching, the patterns
+these types imply will not be enforced.)
+
+```typescript
+type Email = string
+
+type Integer = number
+
+type Json = string
 
 type Timestamp = Integer
 
 type Url = string
 ```
+
+### Utility types
+
+`AtLeastOne<T>`: constructs a type that requires at least one property of `T`
+
+`ExactlyOne<T>`: constructs a type that requires exactly one property of `T`
+
+`Maybe<T>`: constructs a type that allows `T`, `null`, or `undefined`
+
+`MaybeNull<T>`: constructs a type that allows `T` or `null`
+
+`MaybeUndefined<T>`: constructs a type that allows `T` or `undefined`
