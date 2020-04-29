@@ -59,4 +59,6 @@ type Url = string
 
 `MaybeNull<T>`: constructs a type that allows `T` or `null`
 
+`MaybeReadOnly<T>`: constructs a type that allows `T[]` or `readonly T[]`
+
 `MaybeUndefined<T>`: constructs a type that allows `T` or `undefined`
