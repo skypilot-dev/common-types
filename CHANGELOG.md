@@ -1,3 +1,17 @@
+# [1.6.0](https://github.com/skypilotcc/common-types/compare/v1.6.0-next.0...v1.6.0) (2020-04-30)
+
+
+
+# [1.6.0-next.0](https://github.com/skypilotcc/common-types/compare/v1.5.0...v1.6.0-next.0) (2020-04-30)
+
+
+### Features
+
+* Add `MaybeReadOnlyArray` utility type ([1f4c636](https://github.com/skypilotcc/common-types/commit/1f4c636066f21dd0c86bd0928bdf06744c2f836b))
+* Add `Required` utility type ([e8e5438](https://github.com/skypilotcc/common-types/commit/e8e5438ded0f3377f69cb1a13962352e994bd041))
+
+
+
 # [1.5.0](https://github.com/skypilotcc/common-types/compare/v1.4.6...v1.5.0) (2020-03-29)
 
 
