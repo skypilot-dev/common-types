@@ -62,3 +62,5 @@ type Url = string
 `MaybeReadOnly<T>`: constructs a type that allows `T[]` or `readonly T[]`
 
 `MaybeUndefined<T>`: constructs a type that allows `T` or `undefined`
+
+`Require<T, Required>`: constructs a type that makes the `Required` properties of `T` required

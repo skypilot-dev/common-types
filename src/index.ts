@@ -54,3 +54,6 @@ export type MaybeNull<T> = T | null;
 export type MaybeReadOnlyArray<T> = T[] | readonly T[];
 
 export type MaybeUndefined<T> = T | undefined;
+
+/* Utility type to transform optional properties to required properties. */
+export type Require<T, Required extends keyof T> = Omit<T, Required> & Pick<T, Required>
