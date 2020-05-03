@@ -58,3 +58,6 @@ export type MaybeUndefined<T> = T | undefined;
 /* Utility type to transform optional properties to required properties. */
 /* DEPRECATED in favor of `RequireProps`. */
 export type Require<T, R extends keyof T> = Omit<T, R> & Required<Pick<T, R>>
+
+/* Utility type to transform optional properties to required properties. */
+export type RequireProps<T, Require extends keyof T> = Omit<T, Require> & Required<Pick<T, Require>>

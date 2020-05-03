@@ -63,4 +63,7 @@ type Url = string
 
 `MaybeUndefined<T>`: constructs a type that allows `T` or `undefined`
 
-`Require<T, Required>`: constructs a type that makes the `Required` properties of `T` required
+`Require<T, Required>` \[DEPRECATED in favor of `RequireProps`\]: constructs a type that makes the
+`Required` properties of `T` required
+
+`RequireProps<T, Required>`: constructs a type that makes the `Required` properties of `T` required
