@@ -1,3 +1,16 @@
+# [1.7.0](https://github.com/skypilotcc/common-types/compare/v1.7.0-next.1...v1.7.0) (2020-05-03)
+
+
+
+# [1.7.0-next.1](https://github.com/skypilotcc/common-types/compare/v1.6.0...v1.7.0-next.1) (2020-05-03)
+
+
+### Bug Fixes
+
+* Syntax of `Require` is faulty ([a40f479](https://github.com/skypilotcc/common-types/commit/a40f47961b190d013edcd2dee33c88e8099a4aa5))
+
+
+
 # [1.6.0](https://github.com/skypilotcc/common-types/compare/v1.6.0-next.0...v1.6.0) (2020-04-30)
 
 
