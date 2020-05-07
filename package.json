@@ -1,7 +1,7 @@
 {
   "name": "@skypilot/common-types",
   "description": "Library of reusable common types for TypeScript projects",
-  "homepage": "https://github.com/skypilotcc/common-types#readme",
+  "homepage": "https://github.com/skypilot-dev/common-types#readme",
   "version": "1.7.1",
   "main": "lib/index.js",
   "author": {
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skypilotcc/common-types.git"
+    "url": "git+https://github.com/skypilot-dev/common-types.git"
   },
   "bugs": {
-    "url": "https://github.com/skypilotcc/common-types/issues"
+    "url": "https://github.com/skypilot-dev/common-types/issues"
   },
   "dependencies": {},
   "devDependencies": {

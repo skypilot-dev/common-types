@@ -1,9 +1,9 @@
 # @skypilot/common-types
 
 [![npm stable](https://img.shields.io/npm/v/@skypilot/common-types?label=stable)](https://www.npmjs.com/package/@skypilot/common-types)
-![stable build](https://img.shields.io/github/workflow/status/skypilotcc/common-types/Stable%20release?label=stable%20build)
+![stable build](https://img.shields.io/github/workflow/status/skypilot-dev/common-types/Stable%20release?label=stable%20build)
 [![npm next](https://img.shields.io/npm/v/@skypilot/common-types/next?label=next)](https://www.npmjs.com/package/@skypilot/common-types)
-![next build](https://img.shields.io/github/workflow/status/skypilotcc/common-types/Prerelease?branch=next&label=next%20build)
+![next build](https://img.shields.io/github/workflow/status/skypilot-dev/common-types/Prerelease?branch=next&label=next%20build)
 ![Codacy grade](https://img.shields.io/codacy/grade/561f2e20f35944e69cedc01073fd5823)
 ![downloads](https://img.shields.io/npm/dm/@skypilot/common-types)
 [![license: ISC](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)
