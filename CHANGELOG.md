@@ -1,3 +1,15 @@
+## [1.7.2](https://github.com/skypilot-dev/common-types/compare/v1.7.2-next.1...v1.7.2) (2020-05-08)
+
+
+
+## [1.7.2-next.1](https://github.com/skypilot-dev/common-types/compare/v1.7.2-next.0...v1.7.2-next.1) (2020-05-08)
+
+
+
+## [1.7.2-next.0](https://github.com/skypilot-dev/common-types/compare/v1.7.1...v1.7.2-next.0) (2020-05-07)
+
+
+
 ## [1.7.1](https://github.com/skypilot-dev/common-types/compare/v1.7.1-next.0...v1.7.1) (2020-05-07)
 
 
