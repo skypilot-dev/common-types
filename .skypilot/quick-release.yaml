@@ -6,6 +6,7 @@ bot:
   name: 'SkyPilot Bot'
   email: 'bot@skypilot.dev'
 release:
+  # access = 'public' or 'restricted'
   access: 'public'
   publish: true
 prerelease:
