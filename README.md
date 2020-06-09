@@ -12,7 +12,7 @@ A library of reusable common types for TypeScript projects
 
 ## Exports
 
-### Types & interfaces
+### Emulation types
 
 ```typescript
 interface Class<T> extends Function {
@@ -21,15 +21,29 @@ interface Class<T> extends Function {
 
 type Enum<E> = Record<keyof E, number | string> & { [key: number]: string }
 
+type Primitive = boolean | number | string;
+```
+
+### JSON types
+
+```typescript
+interface DefiniteJsonArray extends Array<DefiniteJsonValue> {}
+
+type DefiniteJsonMap = {
+  [key: string]: DefiniteJsonArray | DefiniteJsonMap | JsonPrimitive;
+}
+
+type DefiniteJsonValue = DefiniteJsonArray | DefiniteJsonMap | JsonPrimitive;
+
 interface JsonArray extends Array<JsonValue> {}
 
-interface JsonObject { [key: string]: JsonValue }
+type JsonMap = {
+  [key: string]: JsonArray | JsonMap | JsonPrimitive | undefined;
+}
 
-type JsonValue = Literal | JsonObject | JsonArray | null
+type JsonPrimitive = boolean | number | string | null;
 
-type Literal = boolean | number | string
-
-type SortComparison = -1 | 0 | 1
+type JsonValue = JsonArray | JsonMap | JsonPrimitive | undefined;
 ```
 
 ### Pseudo-types

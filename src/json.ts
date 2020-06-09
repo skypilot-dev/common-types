@@ -1,8 +1,21 @@
-import { Literal } from './emulation';
+/* Pass in `Allow: undefined` to allow undefined values */
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface JsonArray extends Array<JsonValue> {}
+import { MaybeUndefined } from './utility';
 
-export interface JsonObject { [key: string]: JsonValue }
+export type DefiniteJsonArray = Array<DefiniteJsonValue>
 
-export type JsonValue = Literal | JsonObject | JsonArray | null
+export type DefiniteJsonMap = {
+  [key: string]: DefiniteJsonArray | DefiniteJsonMap | JsonPrimitive;
+}
+
+export type DefiniteJsonValue = DefiniteJsonArray | DefiniteJsonMap | JsonPrimitive;
+
+export type JsonArray = Array<JsonValue>
+
+export type JsonMap = {
+  [key: string]: JsonArray | JsonMap | MaybeUndefined<JsonPrimitive>;
+}
+
+export type JsonPrimitive = boolean | number | string | null;
+
+export type JsonValue = JsonArray | JsonMap | MaybeUndefined<JsonPrimitive>;
