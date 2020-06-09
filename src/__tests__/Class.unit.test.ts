@@ -1,4 +1,4 @@
-import { Class } from '../index';
+import { Class } from '../emulation';
 
 class BaseClass {
   prop1 = 'any value';

@@ -1,4 +1,4 @@
-import { RequireProps } from '../index';
+import { RequireProps } from '../utility';
 
 type RequireA = {
   a: string;
