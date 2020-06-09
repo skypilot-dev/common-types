@@ -1,4 +1,4 @@
-import { Url } from '../index';
+import { Url } from '../pseudo';
 
 describe('Url type', () => {
   it('should be a string', () => {
