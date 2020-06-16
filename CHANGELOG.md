@@ -1,3 +1,26 @@
+# [2.0.0](https://github.com/skypilot-dev/common-types/compare/v2.0.0-next.0...v2.0.0) (2020-06-16)
+
+
+
+# [2.0.0-next.0](https://github.com/skypilot-dev/common-types/compare/v2.0.0-alpha.1...v2.0.0-next.0) (2020-06-16)
+
+
+
+# [2.0.0-alpha.1](https://github.com/skypilot-dev/common-types/compare/v1.7.3...v2.0.0-alpha.1) (2020-06-09)
+
+
+* CHG!: More flexible JsonValue; new JsonMap to replace JsonObject ([3aca67f](https://github.com/skypilot-dev/common-types/commit/3aca67f653cfb003a6709ab3cada89b6eda51ae4))
+
+
+### BREAKING CHANGES
+
+* - `JsonValue` is more flexible, but breaks the existing API by relying on a new `JsonMap` type in place of `JsonObject`, which has been removed
+- `Literal` has been renamed to `Primitive`
+- The `Json*` types reference a new `JsonPrimitive` instead of `Literal`
+- Added `DefiniteJson*` types that are identical to the `Json*` types except that they disallow `undefined` values
+
+
+
 ## [1.7.3](https://github.com/skypilot-dev/common-types/compare/v1.7.3-next.0...v1.7.3) (2020-05-30)
 
 
