@@ -1,4 +1,5 @@
 import {
+  AsJsonMap,
   JsonArray,
   JsonMap,
   JsonPrimitive,
@@ -21,6 +22,23 @@ const indefinitePrimitivesMap = {
   ...primitivesMap,
   undefinedProp: undefined,
 };
+
+describe('AsJson', () => {
+  it('AsJsonMap should accept types that satisfy its constrainst', () => {
+    interface MyMap {
+      a: number;
+      b: number;
+    }
+
+    /* Because it lacks an index signature, `MyMap` isn't compatible with `JsonMap`;
+       but TypeScript is able to infer the type parameter to `AsJsonMap` */
+    function takesJsonMap<T>(_map: AsJsonMap<T>): void { /* do nothing */ }
+    const myMap: MyMap = { a: 1, b: 2 };
+    takesJsonMap(myMap);
+
+    expect(myMap).toBe(myMap);
+  });
+});
 
 describe('JsonPrimitive', () => {
   it('JsonPrimitive should match boolean, number, string, or null', () => {
