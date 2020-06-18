@@ -23,14 +23,14 @@ const indefinitePrimitivesMap = {
 };
 
 describe('JsonPrimitive', () => {
-  it('JsonPrimitive should match boolean, number, string, or null', () => {
+  it('should match boolean, number, string, or null', () => {
     const jsonPrimitives: JsonPrimitive[] = primitives;
     expect(jsonPrimitives).toBe(jsonPrimitives);
   });
 });
 
 describe('JsonMap', () => {
-  it('JsonMap should allow indefinite JsonPrimitive values', () => {
+  it('should allow indefinite JsonPrimitive values', () => {
     const jsonMap: JsonMap = indefinitePrimitivesMap;
     expect(jsonMap).toBe(jsonMap);
   });
@@ -42,7 +42,7 @@ describe('JsonMap', () => {
 });
 
 describe('JsonArray', () => {
-  it('JsonArray should allow indefinite JsonPrimitive values', () => {
+  it('should allow indefinite JsonPrimitive values', () => {
     const jsonArray: JsonArray = [
       ...maybeUndefinedPrimitives,
       indefinitePrimitivesMap,
@@ -62,7 +62,7 @@ describe('JsonArray', () => {
 });
 
 describe('JsonValue', () => {
-  it('JsonValue should allow indefinite values', () => {
+  it('should allow indefinite values', () => {
     const jsonValues: Array<JsonValue> = [
       ...maybeUndefinedPrimitives,
       indefinitePrimitivesMap,
