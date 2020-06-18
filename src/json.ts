@@ -2,6 +2,17 @@
 
 import { MaybeUndefined } from './utility';
 
+/* eslint-disable @typescript-eslint/ban-types */
+export type AsJsonValue<T> =
+  T extends JsonPrimitive ? T :
+    T extends Function ? never :
+      T extends object ? AsJsonMap<T> :
+        never;
+export declare type AsJsonMap<T> = object & {
+  [K in keyof T]: AsJsonValue<T[K]>;
+};
+/* eslint-enable @typescript-eslint/ban-types */
+
 export type DefiniteJsonArray = Array<DefiniteJsonValue>
 
 export type DefiniteJsonMap = { [key: string]: DefiniteJsonValue }
