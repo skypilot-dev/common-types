@@ -1,6 +1,22 @@
 /* Pass in `Allow: undefined` to allow undefined values */
 
-import { MaybeUndefined } from './utility';
+import { MaybeUndefined, UnpackedArray } from './utility';
+
+/* eslint-disable @typescript-eslint/ban-types */
+export type AsJsonValue<T> =
+  T extends JsonPrimitive ? T :
+    T extends Function ? never :
+      T extends Array<unknown> ? AsJsonArray<T> :
+        T extends object ? AsJsonMap<T> :
+          never;
+
+// export type AsJsonArray<T> = never
+export type AsJsonArray<T> = Array<AsJsonValue<UnpackedArray<T>>>
+
+export type AsJsonMap<T> =
+  T extends Array<unknown> ? never :
+    {[K in keyof T]: AsJsonValue<T[K]> };
+/* eslint-enable @typescript-eslint/ban-types */
 
 export type DefiniteJsonArray = Array<DefiniteJsonValue>
 

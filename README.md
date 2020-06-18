@@ -27,6 +27,22 @@ type Primitive = boolean | number | string;
 ### JSON types
 
 ```typescript
+// Constructs a type that matches any serializable value
+export type AsJsonValue<T> =
+  T extends JsonPrimitive ? T :
+    T extends Function ? never :
+      T extends Array<unknown> ? AsJsonArray<T> :
+        T extends object ? AsJsonMap<T> :
+          never;
+
+//  Constructs a type that matches any serializable array
+export type AsJsonArray<T> = Array<AsJsonValue<UnpackedArray<T>>>
+
+// Constructs a type that matches any serializable object map
+export type AsJsonMap<T> =
+  T extends Array<unknown> ? never :
+    {[K in keyof T]: AsJsonValue<T[K]> };
+
 interface DefiniteJsonArray extends Array<DefiniteJsonValue> {}
 
 type DefiniteJsonMap = {
