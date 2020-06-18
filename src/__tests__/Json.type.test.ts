@@ -3,8 +3,8 @@ import {
   JsonMap,
   JsonPrimitive,
   JsonValue,
-  DefiniteJsonMap,
   DefiniteJsonArray,
+  DefiniteJsonMap,
   DefiniteJsonValue,
 } from '../json';
 
