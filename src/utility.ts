@@ -26,3 +26,9 @@ export type Require<T, R extends keyof T> = Omit<T, R> & Required<Pick<T, R>>
 
 /* Utility type to transform optional properties to required properties. */
 export type RequireProps<T, Require extends keyof T> = Omit<T, Require> & Required<Pick<T, Require>>
+
+/* Utility type to get the types of the items in an array */
+export type UnpackedArray<A> =
+  A extends Array<infer Item> ? Item :
+    A extends ReadonlyArray<infer Item> ? Item :
+      A;

@@ -81,3 +81,5 @@ type Url = string
 `Required` properties of `T` required
 
 `RequireProps<T, Required>`: constructs a type that makes the `Required` properties of `T` required
+
+`UnpackedArray<T>`: constructs a type that is the union of the types of the items in an array of type `T`
