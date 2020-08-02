@@ -119,22 +119,25 @@ describe('ObjectEntries', () => {
   it('should determine that the entries in { a: 1, b: 2 } are of type `{ a: number, b: number }`', () => {
     const map = { a: 1, b: 2 };
     const validMap: ObjectEntries<typeof map> = { a: 3, b: 4 };
+    const validConstrainedMap: ObjectEntries<typeof map, 'a'> = { a: 3 };
 
     /* Invalid values */
     // const invalidMap: ObjectEntries<typeof map> = { c: 1 };
+    // const invalidConstrainedMap: ObjectEntries<typeof map, 'a'> = { b: 3 };
 
-    expect(validMap).toBeTruthy();
+    expect([validMap, validConstrainedMap]).toBeTruthy();
   });
 
   it('should determine that the entries in read-only { a: 1, b: 2 } are of type `{ a: 1, b: 2 }`', () => {
     const map = { a: 1, b: 2 } as const;
     const validMap: ObjectEntries<typeof map> = { a: 1, b: 2 };
+    const validConstrainedMap: ObjectEntries<typeof map, 'b'> = { b: 2 };
 
     /* Invalid values */
     // const invalidMap1: ObjectEntries<typeof map> = { a: 2, b: 1 };
     // const invalidMap2: ObjectEntries<typeof map> = { a: 1, b: 2, c: 3 };
+    // const invalidConstrainedMap: ObjectEntries<typeof map, 'b'> = { a: 1 };
 
-    expect(validMap).toBeTruthy();
+    expect([validMap, validConstrainedMap]).toBeTruthy();
   });
-
 });

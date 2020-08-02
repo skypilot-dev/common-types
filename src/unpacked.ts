@@ -7,7 +7,7 @@ export type ArrayItems<A> =
       never;
 
 /* Construct a type that is the union of the types of all entries in object `O` */
-export type ObjectEntries<O> ={ [K in keyof O]: O[K] }
+export type ObjectEntries<O, Keys extends keyof O = keyof O> ={ [K in Keys]: O[K] }
 
 /* Construct a type that returns all keys of `O` */
 export type ObjectKeys<O> = keyof O
