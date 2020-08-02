@@ -94,6 +94,13 @@ type Url = string
 
 `MaybeUndefined<T>`: constructs a type that allows `T` or `undefined`
 
+`ObjectEntries<O>`: constructs a type that is the union of the types of all entries in object `O`
+
+`ObjectKeys<O>`: constructs a type that is the union of all keys in object `O`
+
+`ObjectValues<O, K?>`: constructs a type that is the union of all values in object `O`, or, if `K`
+is provided, of all values mapped to keys `K` in object `O`
+
 `Require<T, Required>` \[DEPRECATED in favor of `RequireProps`\]: constructs a type that makes the
 `Required` properties of `T` required
 
