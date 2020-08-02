@@ -80,6 +80,7 @@ type Url = string
 ```
 
 ### Utility types
+`ArrayItems<A>`: constructs a type that is the union of all items in array `A`
 
 `AtLeastOne<T>`: constructs a type that requires at least one property of `T`
 
