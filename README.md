@@ -101,6 +101,8 @@ type Url = string
 `ObjectValues<O, K?>`: constructs a type that is the union of all values in object `O`, or, if `K`
 is provided, of all values mapped to keys `K` in object `O`
 
+`PromisedReturnType<F>`: obtains the promised return type of function `F`
+
 `Require<T, Required>` \[DEPRECATED in favor of `RequireProps`\]: constructs a type that makes the
 `Required` properties of `T` required
 
