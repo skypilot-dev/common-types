@@ -21,13 +21,14 @@ export type MaybeReadOnlyArray<T> = T[] | readonly T[];
 export type MaybeUndefined<T> = T | undefined;
 
 /* Utility type to transform optional properties to required properties. */
-/* DEPRECATED in favor of `RequireProps`. */
+/* @deprecated Use `RequireProps` instead */
 export type Require<T, R extends keyof T> = Omit<T, R> & Required<Pick<T, R>>
 
 /* Utility type to transform optional properties to required properties. */
 export type RequireProps<T, Require extends keyof T> = Omit<T, Require> & Required<Pick<T, Require>>
 
 /* Utility type to get the types of the items in an array */
+/* @deprecated Use `ArrayItems` instead */
 export type UnpackedArray<A> =
   A extends Array<infer Item> ? Item :
     A extends ReadonlyArray<infer Item> ? Item :

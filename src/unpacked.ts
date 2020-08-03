@@ -1,7 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 /* This file contains utility types that match the union of items in an array or of keys & values
    in an object */
 
-export type ArrayItems<A> =
+export type ArrayItems<A extends (Array<any> | ReadonlyArray<any>)> =
   A extends Array<infer Item> ? Item :
     A extends ReadonlyArray<infer Item> ? Item :
       never;
