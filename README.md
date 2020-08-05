@@ -12,6 +12,12 @@ A library of reusable common types for TypeScript projects
 
 ## Exports
 
+### Convenience aliases
+
+```typescript
+type AnyRecord = Record<string, any>
+```
+
 ### Emulation types
 
 ```typescript
