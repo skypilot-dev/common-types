@@ -16,6 +16,9 @@ A library of reusable common types for TypeScript projects
 
 ```typescript
 type AnyRecord = Record<string, any>
+
+// Describes an object without properties
+type EmptyObject = { [key: string]: never; [key: number]: never }
 ```
 
 ### Emulation types
