@@ -1,3 +1,60 @@
+# [2.1.0](https://github.com/skypilot-dev/common-types/compare/v2.1.0-next.0...v2.1.0) (2020-08-11)
+
+
+
+# [2.1.0-next.0](https://github.com/skypilot-dev/common-types/compare/v2.1.0-alpha.9...v2.1.0-next.0) (2020-08-05)
+
+
+### Features
+
+* Add `AnyRecord` convenience type ([35555aa](https://github.com/skypilot-dev/common-types/commit/35555aa6d480c3c98217a6f8889568e62c01aa5e))
+* Add `EmptyObject` convenience type ([4d3533a](https://github.com/skypilot-dev/common-types/commit/4d3533acebba71fa3de063f884eb749fdb4779a6))
+
+
+
+# [2.1.0-alpha.7](https://github.com/skypilot-dev/common-types/compare/v2.1.0-alpha.5...v2.1.0-alpha.7) (2020-08-03)
+
+
+### Features
+
+* Add `PromisedReturnType` utility type ([1d2ae90](https://github.com/skypilot-dev/common-types/commit/1d2ae9047537c7cb0fbc963c9b25102ba825a66a))
+* Improve typing of `ArrayItems`; add deprecation decorators ([2022b7b](https://github.com/skypilot-dev/common-types/commit/2022b7b58317da2dbb681b7ac0a47408adbbf534))
+
+
+
+# [2.1.0-alpha.5](https://github.com/skypilot-dev/common-types/compare/v2.1.0-alpha.4...v2.1.0-alpha.5) (2020-08-02)
+
+
+### Features
+
+* Optionally match specified keys in `ObjectEntries` ([49e8c2d](https://github.com/skypilot-dev/common-types/commit/49e8c2d763d224ff0dbdd565fb2b8c68f977d1d4))
+
+
+
+# [2.1.0-alpha.4](https://github.com/skypilot-dev/common-types/compare/v2.1.0-alpha.3...v2.1.0-alpha.4) (2020-08-02)
+
+
+### Features
+
+* Add `ArrayItems` utility type ([4d499b0](https://github.com/skypilot-dev/common-types/commit/4d499b064002f8d6a231c97ee38a1202b1f809c2))
+* Add `ObjectKeys`, `ObjectValues` & `ObjectEntries` utility types ([fd185be](https://github.com/skypilot-dev/common-types/commit/fd185be7db716cc8109dff78d434ee65dd80e11a))
+
+
+
+# [2.1.0-alpha.3](https://github.com/skypilot-dev/common-types/compare/v2.0.1-next.1...v2.1.0-alpha.3) (2020-07-31)
+
+
+### Features
+
+* Add `UnpackedArray` utility type ([09a4769](https://github.com/skypilot-dev/common-types/commit/09a476916b0a0528e9462eff50866f58957b43de))
+* Add utility types that match serializable values ([4f1b936](https://github.com/skypilot-dev/common-types/commit/4f1b936570b7d5b10e42c2ce6c384c55533d371f))
+
+
+
+## [2.0.1-next.1](https://github.com/skypilot-dev/common-types/compare/v2.0.1-next.0...v2.0.1-next.1) (2020-07-31)
+
+
+
 # [2.0.0](https://github.com/skypilot-dev/common-types/compare/v2.0.0-next.0...v2.0.0) (2020-06-16)
 
 
