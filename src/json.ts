@@ -1,6 +1,8 @@
+/* eslint-disable @typescript-eslint/no-empty-interface */
+
 /* Pass in `Allow: undefined` to allow undefined values */
 
-import { MaybeUndefined, UnpackedArray } from './utility';
+import { UnpackedArray } from './utility';
 
 /* eslint-disable @typescript-eslint/ban-types */
 export type AsJsonValue<T> =
@@ -10,24 +12,25 @@ export type AsJsonValue<T> =
         T extends object ? AsJsonMap<T> :
           never;
 
-// export type AsJsonArray<T> = never
 export type AsJsonArray<T> = Array<AsJsonValue<UnpackedArray<T>>>
 
 export type AsJsonMap<T> =
   T extends Array<unknown> ? never :
     {[K in keyof T]: AsJsonValue<T[K]> };
-/* eslint-enable @typescript-eslint/ban-types */
 
-export type DefiniteJsonArray = Array<DefiniteJsonValue>
+export interface DefiniteJsonArray extends ArrayLike<DefiniteJsonValue> {}
 
-export type DefiniteJsonMap = { [key: string]: DefiniteJsonValue }
+export interface DefiniteJsonMap extends Record<string, DefiniteJsonValue> {}
 
-export type DefiniteJsonValue = DefiniteJsonArray | DefiniteJsonMap | JsonPrimitive;
+export type DefiniteJsonValue = JsonPrimitive | JsonArray | JsonMap;
 
-export type JsonArray = Array<JsonValue>
+export interface JsonArray extends ArrayLike<JsonValue> {}
 
-export type JsonMap = { [key: string]: JsonValue }
+export interface JsonMap extends Record<string, JsonValue> {}
 
 export type JsonPrimitive = boolean | number | string | null;
 
-export type JsonValue = JsonArray | JsonMap | MaybeUndefined<JsonPrimitive>;
+export type JsonValue = JsonPrimitive | JsonArray | JsonMap | undefined;
+
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+export type NotJsonable = ((...args: any[]) => any) | undefined;
