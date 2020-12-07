@@ -38,7 +38,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@skypilot/toolchain": "^5.0.3"
+    "@skypilot/toolchain": "^5.1.2"
   },
   "publishConfig": {
     "access": "public"
