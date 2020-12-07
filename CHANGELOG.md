@@ -1,3 +1,7 @@
+## [2.1.4](https://github.com/skypilot-dev/common-types/compare/v2.1.3...v2.1.4) (2020-12-07)
+
+
+
 ## [2.1.3](https://github.com/skypilot-dev/common-types/compare/v2.1.2-next.0...v2.1.3) (2020-10-03)
 
 

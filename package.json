@@ -1,6 +1,6 @@
 {
   "name": "@skypilot/common-types",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "private": false,
   "description": "Library of reusable common types for TypeScript projects",
   "homepage": "https://github.com/skypilot-dev/common-types#readme",
