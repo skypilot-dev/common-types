@@ -1,4 +1,13 @@
-## [2.1.4](https://github.com/skypilot-dev/common-types/compare/v2.1.3...v2.1.4) (2020-12-07)
+## [2.1.5](https://github.com/skypilot-dev/common-types/compare/v2.1.5-next.1...v2.1.5) (2021-02-28)
+
+
+### Bug Fixes
+
+* Typing of read-only array uses syntax meant for properties ([94e9e23](https://github.com/skypilot-dev/common-types/commit/94e9e23019f7e08669cbbf8941ffc0625cf7250e))
+
+
+
+## [2.1.4](https://github.com/skypilot-dev/common-types/compare/v2.1.4-next.0...v2.1.4) (2020-12-07)
 
 
 
