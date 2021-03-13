@@ -16,7 +16,8 @@ export type Maybe<T> = T | null | undefined;
 
 export type MaybeNull<T> = T | null;
 
-export type MaybeReadOnlyArray<T> = T[] | ReadonlyArray<T>;
+/* @deprecated Use native `ReadonlyArray` instead; despite its name, it accepts both writable and read-only arrays */
+export type MaybeReadOnlyArray<Item> = ReadonlyArray<Item>;
 
 export type MaybeUndefined<T> = T | undefined;
 
