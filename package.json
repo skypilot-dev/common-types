@@ -1,6 +1,6 @@
 {
   "name": "@skypilot/common-types",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "private": false,
   "description": "Library of reusable common types for TypeScript projects",
   "homepage": "https://github.com/skypilot-dev/common-types#readme",
@@ -33,12 +33,14 @@
     "prepublishOnly": "yarn run typecheck && yarn run lint --quiet && yarn test && yarn run build",
     "publish:default": "yarn publish --non-interactive",
     "tc": "yarn run typecheck",
-    "test": "jest",
+    "test": "jest --config jest.standalone.config.js",
+    "test:all": "jest --config jest.config.js",
+    "test:int": "jest --config jest.integration.config.js",
     "typecheck": "tsc"
   },
   "dependencies": {},
   "devDependencies": {
-    "@skypilot/toolchain": "^5.1.4"
+    "@skypilot/toolchain": "^5.2.0"
   },
   "publishConfig": {
     "access": "public"
