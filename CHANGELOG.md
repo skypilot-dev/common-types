@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/skypilot-dev/common-types/compare/v2.2.0-next.0...v2.2.0) (2021-03-16)
+
+
+### Features
+
+* Add template literal types for primitives & HttpUrl ([2259c5e](https://github.com/skypilot-dev/common-types/commit/2259c5ec0d4238cdc9ad081229e0d637a743db72))
+
+
+
 ## [2.1.8](https://github.com/skypilot-dev/common-types/compare/v2.1.6-next.1...v2.1.8) (2021-03-13)
 
 
