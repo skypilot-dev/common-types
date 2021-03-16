@@ -1,3 +1,12 @@
+## [2.2.1](https://github.com/skypilot-dev/common-types/compare/v2.2.1-next.0...v2.2.1) (2021-03-16)
+
+
+### Bug Fixes
+
+* Url type is typed identically to HttpUrl ([5449a5e](https://github.com/skypilot-dev/common-types/commit/5449a5e6b9157e1bda99d8c57ce90acaff24f5bc))
+
+
+
 # [2.2.0](https://github.com/skypilot-dev/common-types/compare/v2.2.0-next.0...v2.2.0) (2021-03-16)
 
 
