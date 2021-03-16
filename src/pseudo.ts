@@ -13,4 +13,4 @@ export type SortComparison = -1 | 0 | 1;
 
 export type Timestamp = Integer;
 
-export type Url = `http://${string}` | `https://${string}`;
+export type Url = string;
