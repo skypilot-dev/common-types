@@ -10,7 +10,7 @@ export type ExactlyOne<T, Keys extends keyof T = keyof T> =
   Pick<T, Exclude<keyof T, Keys>>
   & {
     [K in Keys]-?: Required<Pick<T, K>> & Partial<Record<Exclude<Keys, K>, undefined>>
-  }[Keys]
+  }[Keys];
 
 export type Maybe<T> = T | null | undefined;
 
@@ -23,10 +23,10 @@ export type MaybeUndefined<T> = T | undefined;
 
 /* Utility type to transform optional properties to required properties. */
 /* @deprecated Use `RequireProps` instead */
-export type Require<T, R extends keyof T> = Omit<T, R> & Required<Pick<T, R>>
+export type Require<T, R extends keyof T> = Omit<T, R> & Required<Pick<T, R>>;
 
 /* Utility type to transform optional properties to required properties. */
-export type RequireProps<T, Require extends keyof T> = Omit<T, Require> & Required<Pick<T, Require>>
+export type RequireProps<T, Require extends keyof T> = Omit<T, Require> & Required<Pick<T, Require>>;
 
 /* Utility type to get the types of the items in an array */
 /* @deprecated Use `ArrayItems` instead */

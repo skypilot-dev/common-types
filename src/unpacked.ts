@@ -9,11 +9,11 @@ export type ArrayItems<A extends (Array<any> | ReadonlyArray<any>)> =
       never;
 
 /* Construct a type that is the union of the types of all entries in object `O` */
-export type ObjectEntries<O, Keys extends keyof O = keyof O> ={ [K in Keys]: O[K] }
+export type ObjectEntries<O, Keys extends keyof O = keyof O> ={ [K in Keys]: O[K] };
 
 /* Construct a type that returns all keys of `O` */
 export type ObjectKeys<O> = keyof O
 
 /* Construct a type that returns all values in object `O`, or, if `K` is provided, all values
    mapped to keys `K` in object `O` */
-export type ObjectValues<O, K extends keyof O = keyof O> =  O[K]
+export type ObjectValues<O, K extends keyof O = keyof O> =  O[K];
