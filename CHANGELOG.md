@@ -1,4 +1,13 @@
-## [2.2.2](https://github.com/skypilot-dev/common-types/compare/v2.2.2-next.0...v2.2.2) (2021-03-31)
+# [2.3.0](https://github.com/skypilot-dev/common-types/compare/v2.3.0-next.0...v2.3.0) (2021-04-15)
+
+
+### Features
+
+* Add an alias for falsy values ([4a1bd60](https://github.com/skypilot-dev/common-types/commit/4a1bd6011c47f5da48f97c4230b7677836e005a5))
+
+
+
+## [2.2.2](https://github.com/skypilot-dev/common-types/compare/v2.2.2-next.1...v2.2.2) (2021-03-31)
 
 
 
