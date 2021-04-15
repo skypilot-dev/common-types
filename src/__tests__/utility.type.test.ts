@@ -1,11 +1,5 @@
 import { ExactlyOne, UnpackedArray } from '../utility';
 
-const array = [1, 'one', { a: 1 }];
-const readonlyArray = [1, 'one', { a: 1 }] as const;
-
-type Item = UnpackedArray<typeof array>;
-type ReadonlyItem = UnpackedArray<typeof readonlyArray>;
-
 interface User {
   email: string;
   id: number;
@@ -41,6 +35,12 @@ describe('ExactlyOne', () => {
     expect([idOnly, emailOnly]).toBeTruthy();
   });
 });
+
+const array = [1, 'one', { a: 1 }];
+const readonlyArray = [1, 'one', { a: 1 }] as const;
+
+type Item = UnpackedArray<typeof array>;
+type ReadonlyItem = UnpackedArray<typeof readonlyArray>;
 
 describe('UnpackedArray', () => {
   it("should determine that the type of [1, 'string', { a: 1 }] is `number | string | { a: number }`", () => {
