@@ -21,6 +21,8 @@ export type MaybeReadOnlyArray<Item> = ReadonlyArray<Item>;
 
 export type MaybeUndefined<T> = T | undefined;
 
+export type OneOrMore<T> = T | Array<T> | ReadonlyArray<T>;
+
 /* Utility type to transform optional properties to required properties. */
 /* @deprecated Use `RequireProps` instead */
 export type Require<T, R extends keyof T> = Omit<T, R> & Required<Pick<T, R>>;
